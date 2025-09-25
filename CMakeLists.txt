@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.20)
 project(CRTM-fix
         VERSION 1.0.0 )
 # Include the list of binary files in the CRTM
