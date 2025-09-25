@@ -59,7 +59,7 @@ if(DOWNLOAD_TARBALL)
 endif()
 
 # Copy from the downloaded or central storage location
-message(STATUS "Copying GSI binary fix files from ${CRTM_BIN_FIX_DIR}")
+message(STATUS "Copying CRTM binary fix files from ${CRTM_BIN_FIX_DIR}")
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Big_Endian)
 foreach(file IN LISTS gsi_binaries)
   message(DEBUG "copying ... ${file}")
