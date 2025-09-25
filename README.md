@@ -1,7 +1,7 @@
 # CRTM-fix
 
 Binary files used by CRTM in the [GSI](https://github.com/NOAA-EMC/GSI) are **NOT** in [CRTM-fix](https://github.com/NOAA-EMC/CRTM-fix).
-Instead, GSI binary fix files are available from two sources:
+Instead, CRTM binary fix files are available from two sources:
 - staged in directory `CRTM_BINARY_SOURCE_DIR` on WCOSS2 and select NOAA RHDPCS machines.
   Variable `CRTM_BINARY_SOURCE_DIR` is defined in [GSI](https://github.com/NOAA-EMC/GSI) `modulefiles/gsi_$machine.lua`
   for some, but not all, machines.
