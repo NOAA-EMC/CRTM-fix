@@ -4,7 +4,7 @@ project(CRTM-fix
 # Include the list of binary files in the GSI
 include(crtm_binary_files.cmake)
 
-# Decide if GSI Binary files need to be downloaded or simply copied.
+# Decide if CRTM Binary files need to be downloaded or simply copied.
 if(DEFINED ENV{CRTM_BINARY_SOURCE_DIR})
   set(DOWNLOAD_TARBALL OFF)
   set(CRTM_BIN_FIX_DIR $ENV{CRTM_BINARY_SOURCE_DIR})
