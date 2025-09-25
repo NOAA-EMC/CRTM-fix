@@ -61,7 +61,7 @@ endif()
 # Copy from the downloaded or central storage location
 message(STATUS "Copying CRTM binary fix files from ${CRTM_BIN_FIX_DIR}")
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Big_Endian)
-foreach(file IN LISTS gsi_binaries)
+foreach(file IN LISTS crtm_coeffs)
   message(DEBUG "copying ... ${file}")
   configure_file(${CRTM_BIN_FIX_DIR}/${file} ${CMAKE_CURRENT_SOURCE_DIR}/${file} COPYONLY)
   # TODO: When "who-shall-not-be-named" platforms update their CMake to v3.21.
