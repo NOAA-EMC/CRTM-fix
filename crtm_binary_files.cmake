@@ -1,7 +1,7 @@
 # List of all binary files in the CRTM
 # If any files do not end with a .bin or .nc* suffix please also update 
 # .gitignore so they do not accidentally get added to the repository
-list(APPEND gsi_binaries
+list(APPEND crtm_coeffs
   aatsr_envisat.SpcCoeff.bin
   aatsr_envisat.TauCoeff.bin
   abi-81K_g17.SpcCoeff.bin
