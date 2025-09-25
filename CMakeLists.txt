@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 project(CRTM-fix
         VERSION 1.0.0 )
-# Include the list of binary files in the GSI
+# Include the list of binary files in the CRTM
 include(crtm_binary_files.cmake)
 
 # Decide if CRTM Binary files need to be downloaded or simply copied.
