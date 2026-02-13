@@ -7,6 +7,8 @@ Instead, CRTM binary fix files are available from two sources:
   for some, but not all, machines.
 - downloadable as a tarball from https://ftp.emc.ncep.noaa.gov/static_files/public/CRTM-fix.
 
+**Note that** these binary files are **Big Endian** and the *TauCoeff* files are **ODAS**. 
+
 
 ## What files are what
 The top level directory structure groups the files as follow:
